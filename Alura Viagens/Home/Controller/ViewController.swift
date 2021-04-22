@@ -28,7 +28,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tabelaViagens.delegate = self
         self.viewPacotes.layer.cornerRadius = 10
         self.viewHoteis.layer.cornerRadius = 10
-
     }
     
     // MARK: - UITableViewDataSource
@@ -45,7 +44,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.labelQuantidadeDIas.text = viagemAtual.quantidadeDeDias + " dias"
         cell.labelPreco.text = "R$ \(viagemAtual.preco)"
         cell.imagemViagem.image =  UIImage(named: viagemAtual.caminhoDaImagem)
-        cell.imagemViagem.layer.cornerRadius = 10
+        
+        cell.imagemViagem.layer.cornerRadius = 8
         cell.imagemViagem.layer.masksToBounds = true
         
         return cell
@@ -56,8 +56,5 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone ? 175 : 260
     }
-    
-
-
 }
 
