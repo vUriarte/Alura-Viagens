@@ -18,6 +18,7 @@
 		5F92644F262F0C4F007DC71C /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F92644E262F0C4F007DC71C /* Viagem.swift */; };
 		5F926453262F0D92007DC71C /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F926452262F0D92007DC71C /* ViagemDAO.swift */; };
 		5F926457262F1105007DC71C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F926456262F1105007DC71C /* TableViewCell.swift */; };
+		5FB29DA026371EBC0005717F /* ConfirmacaoPagamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB29D9F26371EBC0005717F /* ConfirmacaoPagamentoViewController.swift */; };
 		5FB7BCAF2633105900298DD5 /* DetalhesViagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB7BCAE2633105900298DD5 /* DetalhesViagensViewController.swift */; };
 		5FB7BCB22633167700298DD5 /* PacoteViagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB7BCB12633167700298DD5 /* PacoteViagem.swift */; };
 		5FB7BCC72633236900298DD5 /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FB7BCB62633236900298DD5 /* icon_back.png */; };
@@ -54,6 +55,7 @@
 		5F92644E262F0C4F007DC71C /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		5F926452262F0D92007DC71C /* ViagemDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
 		5F926456262F1105007DC71C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		5FB29D9F26371EBC0005717F /* ConfirmacaoPagamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmacaoPagamentoViewController.swift; sourceTree = "<group>"; };
 		5FB7BCAE2633105900298DD5 /* DetalhesViagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViagensViewController.swift; sourceTree = "<group>"; };
 		5FB7BCB12633167700298DD5 /* PacoteViagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacoteViagem.swift; sourceTree = "<group>"; };
 		5FB7BCB62633236900298DD5 /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				5F4937E8262F231700BF21D4 /* Home */,
 				5F91F5D02631B8BD0047F4BA /* Pacotes */,
 				5FB7BCAB26330FEF00298DD5 /* DetalhesViagem */,
+				5FB29D9C26371E1E0005717F /* ConfirmacaoPagamento */,
 				5FB7BCB52633236900298DD5 /* Assets */,
 				5F92643F262EFFE3007DC71C /* Main.storyboard */,
 				5F926439262EFFE3007DC71C /* AppDelegate.swift */,
@@ -188,6 +191,30 @@
 				5F926447262EFFE4007DC71C /* Info.plist */,
 			);
 			path = "Alura Viagens";
+			sourceTree = "<group>";
+		};
+		5FB29D9C26371E1E0005717F /* ConfirmacaoPagamento */ = {
+			isa = PBXGroup;
+			children = (
+				5FB29D9E26371E420005717F /* View */,
+				5FB29D9D26371E3A0005717F /* Controller */,
+			);
+			path = ConfirmacaoPagamento;
+			sourceTree = "<group>";
+		};
+		5FB29D9D26371E3A0005717F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5FB29D9F26371EBC0005717F /* ConfirmacaoPagamentoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5FB29D9E26371E420005717F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		5FB7BCAB26330FEF00298DD5 /* DetalhesViagem */ = {
@@ -329,6 +356,7 @@
 				5F92644F262F0C4F007DC71C /* Viagem.swift in Sources */,
 				5F926453262F0D92007DC71C /* ViagemDAO.swift in Sources */,
 				5FB7BCAF2633105900298DD5 /* DetalhesViagensViewController.swift in Sources */,
+				5FB29DA026371EBC0005717F /* ConfirmacaoPagamentoViewController.swift in Sources */,
 				5F91F5D82631BAC20047F4BA /* PacoteViagemCollectionViewCell.swift in Sources */,
 				5F92643E262EFFE3007DC71C /* ViewController.swift in Sources */,
 				5FB7BCB22633167700298DD5 /* PacoteViagem.swift in Sources */,
